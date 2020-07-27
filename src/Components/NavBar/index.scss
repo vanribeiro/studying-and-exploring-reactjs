@@ -1,0 +1,40 @@
+@import './../../Assets/Styles/components/variables.scss';
+
+nav{
+    background-color: $background-navbar;
+    height: 50px;
+    h1, a{
+        color: $font-color-navbar;
+    }
+
+    a{
+        text-decoration: none;
+        padding: 15px 20px 15px 20px; /* padding-top and bottom: ((height - font-size)/2) */
+        border-bottom: 2px transparent solid;
+    }
+    
+    .link-list a:hover{
+        background-color: $a-hover-background-color;
+        color: $a-hover-font-color;
+        padding: 15px 20px 15px 20px; /* padding-top and bottom: ((height - font-size)/2) */
+        border-bottom: 2px white solid;
+    }
+
+    .container{
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        width: 40%;
+    }
+
+    .link-list{
+        width: 60%;
+        display: flex;
+        justify-content: right;
+    }
+
+}

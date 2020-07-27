@@ -1,0 +1,20 @@
+@import './components/variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $background-color-page;
+    color: $font-color;
+    font-size: 16px;
+    font-family: $font-family-text;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}

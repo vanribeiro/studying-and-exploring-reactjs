@@ -1,0 +1,21 @@
+@import './../../Assets/Styles/components/variables.scss';
+
+main{
+    margin: 25px 0 25px 0;
+
+    figure{
+        height: 400px;
+        overflow: hidden;
+    }
+
+    figure img{
+        max-width: 150%;
+        display: block;
+        margin: -33.33% 0;
+    }
+
+    p{
+        line-height: 25px;
+        padding: 5px 0 5px 0;
+    }
+}
